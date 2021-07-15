@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "TPS5430")
+    (date "2021-07-15")
+    (rev "1.0.0")
+    (company "Max Stabel")
+  )
+
   (lib_symbols
     (symbol "Connector:Barrel_Jack_Switch" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.334 0)
