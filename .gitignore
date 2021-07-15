@@ -36,6 +36,25 @@ bom/
 # Gerber export output
 out/
 fab/
+gerber/
+assembly/
+
+*.gbl
+*.gbs
+*.gbp
+*.gbo
+*.gm1
+*.gtl
+*.gts
+*.gtp
+*.gto
+*.gbr
+*.drl
+
+*.zip
 
 # 5.99+ auto-backups
 *-backups
+
+# But don't exclude specific fab outputs
+!jlcpcb/**

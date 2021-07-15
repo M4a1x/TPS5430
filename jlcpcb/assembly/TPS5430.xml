@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/max/Projects/TPS5430/TPS5430.kicad_sch</source>
+    <date>Do 15 Jul 2021 22:01:04</date>
+    <tool>Eeschema 5.99.0-unknown-395602b12a~131~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TPS5430.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10u/50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf</datasheet>
+      <fields>
+        <field name="JLC">1206</field>
+        <field name="LCSC">C13585</field>
+        <field name="MPN">CL31A106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Notes">10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31A106KBHNNNE"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Notes" value="10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="JLC" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24e013fe-b441-4b4a-aed8-cc293ade08c1</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u/50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf</datasheet>
+      <fields>
+        <field name="JLC">1206</field>
+        <field name="LCSC">C13585</field>
+        <field name="MPN">CL31A106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Notes">10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31A106KBHNNNE"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Notes" value="10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="JLC" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d8de335-0a02-45ab-8cbf-00e297fb2c01</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10u/50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf</datasheet>
+      <fields>
+        <field name="JLC">1206</field>
+        <field name="LCSC">C13585</field>
+        <field name="MPN">CL31A106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Notes">10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31A106KBHNNNE"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Notes" value="10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="JLC" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c5e7f59-7b4d-4504-b3ce-e30a117050d5</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u/50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf</datasheet>
+      <fields>
+        <field name="JLC">1206</field>
+        <field name="LCSC">C13585</field>
+        <field name="MPN">CL31A106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Notes">10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31A106KBHNNNE"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Notes" value="10uF ±10% 50V X5R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="JLC" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e889bf6-701a-4ba9-993e-9fed9cd70862</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n/50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Notes">100nF ±10% 50V X7R 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Notes" value="100nF ±10% 50V X7R 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="JLC" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee400fa5-3fbd-422a-b761-ea0603f2def4</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C15195</field>
+        <field name="MPN">CL05B103KB5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Notes">Multilayer Ceramic Capacitors MLCC - SMD/SMT 10nF 50V 0402 RoHS</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL05B103KB5NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Notes" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10nF 50V 0402 RoHS"/>
+      <property name="LCSC" value="C15195"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9a0e6f3-40b6-4da1-8f50-2d8a5fb62eaf</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10u/6.3V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191215_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C15525</field>
+        <field name="MPN">CL05A106MQ5NUNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Notes">10uF ±20% 6.3V X5R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL05A106MQ5NUNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Notes" value="10uF ±20% 6.3V X5R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS"/>
+      <property name="LCSC" value="C15525"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa7597f9-eed8-4d36-98a5-71f78df169c3</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n/16V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Notes">100nF ±10% 16V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Notes" value="100nF ±10% 16V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6219a4d-b95d-4f7e-8680-253c565c655e</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100u/6.3V</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/AVX-TAJB107K006RNJ_C16133.pdf</datasheet>
+      <fields>
+        <field name="JLC">CASE-B_3528</field>
+        <field name="LCSC">C16133</field>
+        <field name="MPN">TAJB107K006RNJ</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="Notes">Tantalum Capacitors 100uF 6.3V CASE-B_3528 RoHS</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC" value="C16133"/>
+      <property name="Notes" value="Tantalum Capacitors 100uF 6.3V CASE-B_3528 RoHS"/>
+      <property name="MPN" value="TAJB107K006RNJ"/>
+      <property name="Manufacturer" value="AVX"/>
+      <property name="JLC" value="CASE-B_3528"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0046a74-726f-4ffe-9b5e-f0aa54154eb4</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100u/6.3V</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/AVX-TAJB107K006RNJ_C16133.pdf</datasheet>
+      <fields>
+        <field name="JLC">CASE-B_3528</field>
+        <field name="LCSC">C16133</field>
+        <field name="MPN">TAJB107K006RNJ</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="Notes">Tantalum Capacitors 100uF 6.3V CASE-B_3528 RoHS</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC" value="C16133"/>
+      <property name="Notes" value="Tantalum Capacitors 100uF 6.3V CASE-B_3528 RoHS"/>
+      <property name="MPN" value="TAJB107K006RNJ"/>
+      <property name="Manufacturer" value="AVX"/>
+      <property name="JLC" value="CASE-B_3528"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1592f85-fe3b-4820-bb0c-9a46a4979ebd</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SS34</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2105061435_MDD-Microdiode-Electronics-SS34_C8678.pdf</datasheet>
+      <fields>
+        <field name="JLC">SMA,DO-214AC</field>
+        <field name="LCSC">C8678</field>
+        <field name="MPN">SS34</field>
+        <field name="Manufacturer">MDD(Microdiode Electronics)</field>
+        <field name="Notes">40V 3A 550mV @ 3A SMA(DO-214AC) Schottky Barrier Diodes (SBD) RoHS</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MPN" value="SS34"/>
+      <property name="Manufacturer" value="MDD(Microdiode Electronics)"/>
+      <property name="LCSC" value="C8678"/>
+      <property name="Notes" value="40V 3A 550mV @ 3A SMA(DO-214AC) Schottky Barrier Diodes (SBD) RoHS"/>
+      <property name="JLC" value="SMA,DO-214AC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7c83ef6-30ca-492a-a606-973253566c32</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>ZMM5V6</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301122_ST-Semtech-ZMM5V6_C8062.pdf</datasheet>
+      <fields>
+        <field name="JLC">LL-34</field>
+        <field name="LCSC">C8062</field>
+        <field name="MPN">ZMM5V6</field>
+        <field name="Manufacturer">ST(Semtech)</field>
+        <field name="Notes">5.6V 500mW &lt;100nA @ 1V LL-34 Zener Diodes RoHS</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="LCSC" value="C8062"/>
+      <property name="MPN" value="ZMM5V6"/>
+      <property name="Manufacturer" value="ST(Semtech)"/>
+      <property name="Notes" value="5.6V 500mW &lt;100nA @ 1V LL-34 Zener Diodes RoHS"/>
+      <property name="JLC" value="LL-34"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b756d846-4116-4a13-b58e-f7c723e80733</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810111821_Littelfuse-1206L300SLTHYR_C207041.pdf</datasheet>
+      <fields>
+        <field name="JLC">1206</field>
+        <field name="LCSC">C207041</field>
+        <field name="MPN">1206L300SLTHYR</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Notes">Polymeric 6V 6A 4s 20mΩ 1206 PTC Resettable Fuses RoHS</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="MPN" value="1206L300SLTHYR"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Notes" value="Polymeric 6V 6A 4s 20mΩ 1206 PTC Resettable Fuses RoHS"/>
+      <property name="LCSC" value="C207041"/>
+      <property name="JLC" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>324d0e2e-5b56-4ba6-93e5-47d464718235</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>072d5ec5-8d14-4a7e-9fba-67f915e9b10c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>442ac2c8-66f7-4362-bcc9-a8d28e2be78a</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>648940fd-e42e-4a2b-bbf5-61b201827562</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e1de121-1cf1-419b-a3aa-cf07d8cc8066</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack</value>
+      <footprint>MyFootprints:DC-005-5A-2.0-SMT</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1810291122_XKB-Connectivity-DC-005-5A-2-0-SMT_C319134.pdf</datasheet>
+      <fields>
+        <field name="JLC">SMD</field>
+        <field name="LCSC">C319134</field>
+        <field name="MPN">DC-005-5A-2.0-SMT</field>
+        <field name="Manufacturer">XKB Connectivity</field>
+        <field name="Notes">DC Power Receptacle Jack 2.5A 2.0mm 6.6mm SMD AC/DC Power Plugs &amp; Receptacles RoHS</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="MPN" value="DC-005-5A-2.0-SMT"/>
+      <property name="Manufacturer" value="XKB Connectivity"/>
+      <property name="Notes" value="DC Power Receptacle Jack 2.5A 2.0mm 6.6mm SMD AC/DC Power Plugs &amp; Receptacles RoHS"/>
+      <property name="LCSC" value="C319134"/>
+      <property name="JLC" value="SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>997044a6-4b67-44cb-978a-cd0e5e620fbe</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2009191134_Ningbo-Xinlaiya-Elec-XY302V-3-5-2P_C784940.pdf</datasheet>
+      <fields>
+        <field name="JLC">CONN-TH_XY302V-3.5-2P</field>
+        <field name="LCSC">C784940</field>
+        <field name="MPN">XY302V-3.5-2P</field>
+        <field name="Manufacturer">Ningbo Xinlaiya Elec.</field>
+        <field name="Notes">P=3.5mm Screw terminal RoHS, CONN-TH_XY302V-3.5-2P</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C784940"/>
+      <property name="MPN" value="XY302V-3.5-2P"/>
+      <property name="Manufacturer" value="Ningbo Xinlaiya Elec."/>
+      <property name="Notes" value="P=3.5mm Screw terminal RoHS, CONN-TH_XY302V-3.5-2P"/>
+      <property name="JLC" value="CONN-TH_XY302V-3.5-2P"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b77a39f-736d-495d-a603-89f2366d24c5</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74638cb3-d4a0-4ec6-8d48-db06454c02ff</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebdf58f3-05f8-4df7-93fe-90feac7bd51b</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c44c76c-a4dd-4404-a95d-a01af1ccf54e</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>47u</value>
+      <footprint>MyFootprints:L_Sunlord_MWSA1004S_10x11.5x4mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-MWSA1004S-470MT_C408491.pdf</datasheet>
+      <fields>
+        <field name="JLC">SMD_10x11.5x4.0mm</field>
+        <field name="LCSC">C408491</field>
+        <field name="MPN">MWSA1004S-470MT</field>
+        <field name="Manufacturer">Sunlord</field>
+        <field name="Notes">47uH ±20% 3.3A 145mΩ SMD,10x11.5x4.0mm Power Inductors RoHS</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C408491"/>
+      <property name="MPN" value="MWSA1004S-470MT"/>
+      <property name="Manufacturer" value="Sunlord"/>
+      <property name="Notes" value="47uH ±20% 3.3A 145mΩ SMD,10x11.5x4.0mm Power Inductors RoHS"/>
+      <property name="JLC" value="SMD_10x11.5x4.0mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24782b93-d714-465d-be36-72a34ae0df9f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="JLC">SOT-23-3L</field>
+        <field name="LCSC">C15127</field>
+        <field name="MPN">AO3401A</field>
+        <field name="Manufacturer">Alpha &amp; Omega Semicon</field>
+        <field name="Notes">MOSFET P Trench 30V 4A 1.3V @ 250uA 44 m? @ 4.3A,10V SOT-23-3L RoHS</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="MPN" value="AO3401A"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semicon"/>
+      <property name="Notes" value="MOSFET P Trench 30V 4A 1.3V @ 250uA 44 m? @ 4.3A,10V SOT-23-3L RoHS"/>
+      <property name="LCSC" value="C15127"/>
+      <property name="JLC" value="SOT-23-3L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a318088-4d93-418f-afaf-4303a06e8293</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>12k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301321_UNI-ROYAL-Uniroyal-Elec-0402WGF1202TCE_C25752.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C25752</field>
+        <field name="MPN">0402WGF1202TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">12kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0402WGF1202TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Notes" value="12kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25752"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5171bfb3-95e8-436c-ba35-35c2d7ddce70</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301717_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">10kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Notes" value="10kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25744"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdb77938-7636-47de-93d4-440827c4fecd</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301320_UNI-ROYAL-Uniroyal-Elec-0402WGF3301TCE_C25890.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C25890</field>
+        <field name="MPN">0402WGF3301TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">3.3kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0402WGF3301TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Notes" value="3.3kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25890"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b7baf3e-2712-4b0a-883f-6e7e3ef2697a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>150k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301326_UNI-ROYAL-Uniroyal-Elec-0402WGF1503TCE_C25755.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C25755</field>
+        <field name="MPN">0402WGF1503TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">150kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0402WGF1503TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Notes" value="150kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25755"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d63fcd27-9a8f-4fa6-a59f-1b208522fdd1</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301112_UNI-ROYAL-Uniroyal-Elec-0402WGF5601TCE_C25908.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C25908</field>
+        <field name="MPN">0402WGF5601TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">5.6kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0402WGF5601TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Notes" value="5.6kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25908"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e98067b-ddfc-4d1a-8a14-a96b02b93744</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081711_UNI-ROYAL-Uniroyal-Elec-0603WAF2700T5E_C22966.pdf</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C22966</field>
+        <field name="MPN">0603WAF2700T5E</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">270Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0603WAF2700T5E"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Notes" value="270Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C22966"/>
+      <property name="JLC" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c447385c-1c90-41bc-8c27-5b92e733aa9c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301311_UNI-ROYAL-Uniroyal-Elec-0402WGF2202TCE_C25768.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C25768</field>
+        <field name="MPN">0402WGF2202TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">22kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0402WGF2202TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Notes" value="22kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25768"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>085f92ef-1cf7-469f-a522-7c6066e1c128</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF4703TCE_C25790.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C25790</field>
+        <field name="MPN">0402WGF4703TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">470kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0402WGF4703TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="LCSC" value="C25790"/>
+      <property name="JLC" value="0402"/>
+      <property name="Notes" value="470kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dedf98d3-8baf-4d21-884d-d850f45a5682</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS5430DDA</value>
+      <footprint>Package_SO:TI_SO-PowerPAD-8_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps5430.pdf</datasheet>
+      <fields>
+        <field name="JLC">LSOP-8_EP_3.9x4.9x1.27P</field>
+        <field name="LCSC">C9864</field>
+        <field name="MPN">TPS5430DDAR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Notes">36V 3A SOP-8_EP_150mil DC-DC Converters RoHS</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TPS5430DDA" description="3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8"/>
+      <property name="JLC" value="LSOP-8_EP_3.9x4.9x1.27P"/>
+      <property name="LCSC" value="C9864"/>
+      <property name="MPN" value="TPS5430DDAR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Notes" value="36V 3A SOP-8_EP_150mil DC-DC Converters RoHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d358fe7-ab96-4a84-bfe6-2edbfa72df00</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS5430DDA">
+      <description>3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps5430.pdf</docs>
+      <footprints>
+        <fp>TI*SO*PowerPAD*ThermalVias*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS5430DDA</field>
+        <field name="Footprint">Package_SO:TI_SO-PowerPAD-8_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps5430.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="input"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="VSENSE" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="VIN" type="power_in"/>
+        <pin num="8" name="PH" type="output"/>
+        <pin num="9" name="GNDPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad-nightly/library//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad-nightly/library//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad-nightly/library//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad-nightly/library//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad-nightly/library//Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad-nightly/library//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Feedback">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VSENSE" pintype="input"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="GNDPAD" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="BOOT" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PH" pintype="output"/>
+    </net>
+    <net code="6" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(JP2-Pad1)">
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(JP3-Pad1)">
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="13" name="VDD">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
