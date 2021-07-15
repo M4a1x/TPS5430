@@ -1876,7 +1876,7 @@
     (uuid 24782b93-d714-465d-be36-72a34ae0df9f)
     (property "Reference" "L1" (id 0) (at 114.3 111.76 90))
     (property "Value" "47u" (id 1) (at 114.3 114.3 90))
-    (property "Footprint" "MyFootprints:L_Sunlord_MWSA1004S_10x11.5x4mm" (id 2) (at 114.3 118.11 0)
+    (property "Footprint" "tps5430:L_Sunlord_MWSA1004S_10x11.5x4mm" (id 2) (at 114.3 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-MWSA1004S-470MT_C408491.pdf" (id 3) (at 114.3 118.11 0)
@@ -2767,7 +2767,7 @@
     (uuid 997044a6-4b67-44cb-978a-cd0e5e620fbe)
     (property "Reference" "J1" (id 0) (at 67.437 35.56 0))
     (property "Value" "Barrel_Jack" (id 1) (at 67.437 38.1 0))
-    (property "Footprint" "MyFootprints:DC-005-5A-2.0-SMT" (id 2) (at 67.31 45.466 0)
+    (property "Footprint" "tps5430:DC-005-5A-2.0-SMT" (id 2) (at 67.31 45.466 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1810291122_XKB-Connectivity-DC-005-5A-2-0-SMT_C319134.pdf" (id 3) (at 67.31 45.466 0)
@@ -2987,7 +2987,7 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380")
     )
     (path "/997044a6-4b67-44cb-978a-cd0e5e620fbe"
-      (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "MyFootprints:DC-005-5A-2.0-SMT")
+      (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "tps5430:DC-005-5A-2.0-SMT")
     )
     (path "/1b77a39f-736d-495d-a603-89f2366d24c5"
       (reference "J2") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal")
@@ -3002,7 +3002,7 @@
       (reference "JP3") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/24782b93-d714-465d-be36-72a34ae0df9f"
-      (reference "L1") (unit 1) (value "47u") (footprint "MyFootprints:L_Sunlord_MWSA1004S_10x11.5x4mm")
+      (reference "L1") (unit 1) (value "47u") (footprint "tps5430:L_Sunlord_MWSA1004S_10x11.5x4mm")
     )
     (path "/9a318088-4d93-418f-afaf-4303a06e8293"
       (reference "Q1") (unit 1) (value "AO3401A") (footprint "Package_TO_SOT_SMD:SOT-23")
