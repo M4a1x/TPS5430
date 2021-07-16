@@ -32,7 +32,7 @@ Licensed under CERN-OHL-S v2 or any later version. See `LICENSE` for more inform
 
 ## Contact
 
-Max Stabel - [https://max.stabel.family/](max.stabel.family)
+Max Stabel - [https://max.stabel.family/](https://max.stabel.family)
 
 Project Link: [https://github.com/M4a1x/TPS5430](https://github.com/M4a1x/TPS5430)
 
