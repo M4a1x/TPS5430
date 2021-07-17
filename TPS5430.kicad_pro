@@ -58,6 +58,8 @@
       "drc_exclusions": [
         "clearance|150891860|88424247|e6f7cbc3-0644-4e99-b908-c1d1748a53b2|17fd3da2-69e8-4b99-8b5c-fd32185d3215",
         "clearance|151000000|88000000|e6f7cbc3-0644-4e99-b908-c1d1748a53b2|27e7c7a7-64d9-4358-9c05-5b528f17b081",
+        "clearance|151326855|85470067|4bd7c3fb-b0c5-4766-b9f5-13d8b7c9f497|48c63715-b1c8-427b-888b-651adf3dfcfc",
+        "clearance|151900000|86000000|4bd7c3fb-b0c5-4766-b9f5-13d8b7c9f497|0ca9d7fa-314a-401c-a19f-cc2aa6b789bd",
         "clearance|153727212|82471838|9c0dff76-9e15-48ac-980c-8aa1ed90614e|8965b2d3-7bc1-4733-b145-c869b08a8103",
         "clearance|154000000|85000000|b715b47f-d3a7-47bb-9f98-e6a14a781435|8965b2d3-7bc1-4733-b145-c869b08a8103",
         "clearance|154000000|88000000|61ecb815-2501-4906-a274-91ddb97064ad|8965b2d3-7bc1-4733-b145-c869b08a8103",
@@ -150,6 +152,7 @@
       },
       "track_widths": [
         0.0,
+        0.25,
         1.0
       ],
       "via_dimensions": [
