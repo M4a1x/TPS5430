@@ -2,16 +2,16 @@
 <export version="E">
   <design>
     <source>/home/max/Projects/TPS5430/TPS5430.kicad_sch</source>
-    <date>Do 15 Jul 2021 22:01:04</date>
+    <date>Sa 17 Jul 2021 20:18:30</date>
     <tool>Eeschema 5.99.0-unknown-395602b12a~131~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>TPS5430</title>
+        <company>Max Stabel</company>
+        <rev>1.0.0</rev>
+        <date>2021-07-15</date>
         <source>TPS5430.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="https://github.com/M4a1x/TPS5430"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -179,21 +179,21 @@
       <tstamps>aa7597f9-eed8-4d36-98a5-71f78df169c3</tstamps>
     </comp>
     <comp ref="C8">
-      <value>100n/16V</value>
+      <value>4n7/50V</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811031110_FH-Guangdong-Fenghua-Advanced-Tech-0402B472K500NT_C1538.pdf</datasheet>
       <fields>
         <field name="JLC">0402</field>
-        <field name="LCSC">C1525</field>
-        <field name="MPN">CL05B104KO5NNNC</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="Notes">100nF ±10% 16V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS</field>
+        <field name="LCSC">C1538</field>
+        <field name="MPN">0402B472K500NT</field>
+        <field name="Manufacturer">FH(Guangdong Fenghua Advanced Tech)</field>
+        <field name="Notes">4.7nF ±10% 50V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL05B104KO5NNNC"/>
-      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
-      <property name="Notes" value="100nF ±10% 16V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS"/>
-      <property name="LCSC" value="C1525"/>
+      <property name="MPN" value="0402B472K500NT"/>
+      <property name="Manufacturer" value="FH(Guangdong Fenghua Advanced Tech)"/>
+      <property name="Notes" value="4.7nF ±10% 50V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS"/>
+      <property name="LCSC" value="C1538"/>
       <property name="JLC" value="0402"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS5430.kicad_sch"/>
@@ -288,6 +288,28 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b756d846-4116-4a13-b58e-f7c723e80733</tstamps>
     </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf</datasheet>
+      <fields>
+        <field name="JLC">LED_0603</field>
+        <field name="LCSC">C72043</field>
+        <field name="MPN">19-217/GHC-YR1S2/3T</field>
+        <field name="Manufacturer">Everlight Elec</field>
+        <field name="Notes">Green 520~535nm 0603 Light Emitting Diodes (LED) RoHS</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="19-217/GHC-YR1S2/3T"/>
+      <property name="Manufacturer" value="Everlight Elec"/>
+      <property name="Notes" value="Green 520~535nm 0603 Light Emitting Diodes (LED) RoHS"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="JLC" value="LED_0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00cdb4c2-a038-4d1b-862a-03ad707639ba</tstamps>
+    </comp>
     <comp ref="F1">
       <value>Polyfuse</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
@@ -348,7 +370,7 @@
     </comp>
     <comp ref="J1">
       <value>Barrel_Jack</value>
-      <footprint>MyFootprints:DC-005-5A-2.0-SMT</footprint>
+      <footprint>tps5430:DC-005-5A-2.0-SMT</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810291122_XKB-Connectivity-DC-005-5A-2-0-SMT_C319134.pdf</datasheet>
       <fields>
         <field name="JLC">SMD</field>
@@ -391,7 +413,7 @@
       <tstamps>1b77a39f-736d-495d-a603-89f2366d24c5</tstamps>
     </comp>
     <comp ref="JP1">
-      <value>SolderJumper_2_Open</value>
+      <value>SolderJumper</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
@@ -400,7 +422,7 @@
       <tstamps>74638cb3-d4a0-4ec6-8d48-db06454c02ff</tstamps>
     </comp>
     <comp ref="JP2">
-      <value>SolderJumper_2_Open</value>
+      <value>SolderJumper</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
@@ -409,7 +431,7 @@
       <tstamps>ebdf58f3-05f8-4df7-93fe-90feac7bd51b</tstamps>
     </comp>
     <comp ref="JP3">
-      <value>SolderJumper_2_Open</value>
+      <value>SolderJumper</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
@@ -417,9 +439,18 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4c44c76c-a4dd-4404-a95d-a01af1ccf54e</tstamps>
     </comp>
+    <comp ref="JP4">
+      <value>SolderJumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4129d30-c06b-44d6-b2ed-1b444bd1eaa8</tstamps>
+    </comp>
     <comp ref="L1">
       <value>47u</value>
-      <footprint>MyFootprints:L_Sunlord_MWSA1004S_10x11.5x4mm</footprint>
+      <footprint>tps5430:L_Sunlord_MWSA1004S_10x11.5x4mm</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-MWSA1004S-470MT_C408491.pdf</datasheet>
       <fields>
         <field name="JLC">SMD_10x11.5x4.0mm</field>
@@ -438,6 +469,15 @@
       <property name="Sheetfile" value="TPS5430.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>24782b93-d714-465d-be36-72a34ae0df9f</tstamps>
+    </comp>
+    <comp ref="LOGO1">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>Symbol:OSHW-Logo_11.4x12mm_Copper</footprint>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>301643a6-6c8f-4ed6-b579-291e66485d9f</tstamps>
     </comp>
     <comp ref="Q1">
       <value>AO3401A</value>
@@ -461,22 +501,44 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9a318088-4d93-418f-afaf-4303a06e8293</tstamps>
     </comp>
+    <comp ref="Q2">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <fields>
+        <field name="JLC">SOT-23-3</field>
+        <field name="LCSC">C20526</field>
+        <field name="MPN">MMBT3904</field>
+        <field name="Manufacturer">Changjiang Electronics Tech (CJ)</field>
+        <field name="Notes">Transistors (NPN/PNP) NPN 200mA 40V SOT-23(SOT-23-3) RoHS</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="MPN" value="MMBT3904"/>
+      <property name="Manufacturer" value="Changjiang Electronics Tech (CJ)"/>
+      <property name="Notes" value="Transistors (NPN/PNP) NPN 200mA 40V SOT-23(SOT-23-3) RoHS"/>
+      <property name="LCSC" value="C20526"/>
+      <property name="JLC" value="SOT-23-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>409c8fca-54a5-42c6-b61e-f9bc4707fe3a</tstamps>
+    </comp>
     <comp ref="R1">
-      <value>12k</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810301321_UNI-ROYAL-Uniroyal-Elec-0402WGF1202TCE_C25752.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810111814_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf</datasheet>
       <fields>
         <field name="JLC">0402</field>
-        <field name="LCSC">C25752</field>
-        <field name="MPN">0402WGF1202TCE</field>
+        <field name="LCSC">C25741</field>
+        <field name="MPN">0402WGF1003TCE</field>
         <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Notes">12kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
+        <field name="Notes">100kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="0402WGF1202TCE"/>
+      <property name="MPN" value="0402WGF1003TCE"/>
       <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
-      <property name="Notes" value="12kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
-      <property name="LCSC" value="C25752"/>
+      <property name="Notes" value="100kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25741"/>
       <property name="JLC" value="0402"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS5430.kicad_sch"/>
@@ -637,6 +699,81 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dedf98d3-8baf-4d21-884d-d850f45a5682</tstamps>
     </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811132311_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">1kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Notes" value="1kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C11702"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b993647-7a60-4e97-92df-1efa6debc21d</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811031112_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf</datasheet>
+      <fields>
+        <field name="JLC">0402</field>
+        <field name="LCSC">C25079</field>
+        <field name="MPN">0402WGF1200TCE</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">120Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0402WGF1200TCE"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Notes" value="120Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C25079"/>
+      <property name="JLC" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22284af9-9da3-4e62-9202-da833c097772</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081711_UNI-ROYAL-Uniroyal-Elec-0603WAF2700T5E_C22966.pdf</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C22966</field>
+        <field name="MPN">0603WAF2700T5E</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Notes">270Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="0603WAF2700T5E"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Notes" value="270Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS"/>
+      <property name="LCSC" value="C22966"/>
+      <property name="JLC" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96239c57-f07b-4e98-8e16-76896743074e</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TPS5430.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62c79e30-4f04-449c-9719-4abace1da225</tstamps>
+    </comp>
     <comp ref="U1">
       <value>TPS5430DDA</value>
       <footprint>Package_SO:TI_SO-PowerPAD-8_ThermalVias</footprint>
@@ -692,6 +829,22 @@
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -783,6 +936,24 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="Polyfuse">
       <description>Resettable fuse, polymeric positive temperature coefficient</description>
       <docs>~</docs>
@@ -815,6 +986,15 @@
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
     </libpart>
     <libpart lib="Jumper" part="SolderJumper_2_Open">
       <description>Solder Jumper, 2-pole, open</description>
@@ -868,6 +1048,24 @@
         <pin num="9" name="GNDPAD" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Transistor_FET" part="AO3401A">
       <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
       <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
@@ -894,6 +1092,9 @@
     <library logical="Device">
       <uri>/usr/share/kicad-nightly/library//Device.kicad_sym</uri>
     </library>
+    <library logical="Graphic">
+      <uri>/usr/share/kicad-nightly/library//Graphic.kicad_sym</uri>
+    </library>
     <library logical="Jumper">
       <uri>/usr/share/kicad-nightly/library//Jumper.kicad_sym</uri>
     </library>
@@ -902,6 +1103,9 @@
     </library>
     <library logical="Regulator_Switching">
       <uri>/usr/share/kicad-nightly/library//Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad-nightly/library//Transistor_BJT.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
       <uri>/usr/share/kicad-nightly/library//Transistor_FET.kicad_sym</uri>
@@ -912,6 +1116,8 @@
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="VSENSE" pintype="input"/>
     </net>
@@ -923,12 +1129,15 @@
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="2" pintype="passive"/>
       <node ref="J1" pin="3" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
@@ -952,11 +1161,9 @@
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="PH" pintype="output"/>
     </net>
-    <net code="6" name="Net-(C8-Pad2)">
-      <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R1" pin="1" pintype="passive"/>
+    <net code="6" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
     </net>
     <net code="7" name="Net-(F1-Pad1)">
       <node ref="F1" pin="1" pintype="passive"/>
@@ -976,21 +1183,40 @@
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(R5-Pad2)">
+    <net code="11" name="Net-(JP4-Pad1)">
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(R1-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R5-Pad2)">
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="VCC">
+    <net code="15" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="VCC">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="13" name="VDD">
+    <net code="17" name="VDD">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
@@ -998,13 +1224,13 @@
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="unconnected-(U1-Pad2)">
+    <net code="18" name="unconnected-(U1-Pad2)">
       <node ref="U1" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="15" name="unconnected-(U1-Pad3)">
+    <net code="19" name="unconnected-(U1-Pad3)">
       <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="16" name="unconnected-(U1-Pad5)">
+    <net code="20" name="unconnected-(U1-Pad5)">
       <node ref="U1" pin="5" pinfunction="EN" pintype="input+no_connect"/>
     </net>
   </nets>

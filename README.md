@@ -6,12 +6,14 @@ This is a small DC-DC Buck converter board based on the TPS5430 from TI specific
 
 ## Features
 
-* V<sub>in</sub> = 7V..19V for all output voltages to work (see Datasheet Section 8.2.1.2.8.1)
-* V<sub>in</sub> = 5.5V..36V otherwise (e.g. 1.8V doesn't work with 36V input, but 5.5V does)
-* V<sub>out</sub> = 1.8V/3.3V/5V (chosen via solder bridge)
+* V<sub>in</sub> = 5.5V..36V
+* V<sub>in<sub>min</sub></sub> = 1.15 * V<sub>out</sub> (see Datasheet Section 8.2.1.2.8.1)
+* V<sub>in<sub>max</sub></sub> = 8.33 * (V<sub>out</sub> + 0.5) (see Datasheet Section 8.2.1.2.8.1)
+* V<sub>out</sub> = 1.8V/3.3V/5V/12V (choose via solder bridge)
 * Reverse polarity protection with AO3401A p-MOSFET
 * 3A (hold)/6A (trip) polyfuse input protection
 * The board can be powered with a 2.1mm/5.5mm "standard" Arduino compatible barrel jack connector.
+* Status LED
 
 ## Schematic
 

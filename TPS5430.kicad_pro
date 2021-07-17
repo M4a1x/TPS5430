@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -81,6 +81,7 @@
         "courtyards_overlap|147094555|93399999|e0454bb2-d421-431a-aac9-6f77449b6d3b|f444a83f-b132-4f3c-919f-f716014a7a7a",
         "courtyards_overlap|150906679|78600001|9a6a5a57-bc9b-468b-9177-b98ba0a489c2|f444a83f-b132-4f3c-919f-f716014a7a7a",
         "silk_overlap|167752380|82166666|25923e70-ab45-4875-85c9-28726c7e8cde|997b4e8b-e96b-4472-a24a-1992aed033f0",
+        "silk_overlap|167820000|82166666|997b4e8b-e96b-4472-a24a-1992aed033f0|25923e70-ab45-4875-85c9-28726c7e8cde",
         "silk_overlap|186300000|76661904|0f2f95d9-6d7a-4ba9-8ef7-e379c75e646f|e58955c5-aaae-427c-9680-1aa013ba9b5e",
         "silk_overlap|188400000|76661904|d61dd6fb-9c73-420f-8e3c-4205ddc4d7b7|3b88f5ec-3c8d-4e25-8f77-c351d5c11889",
         "via_dangling|151000000|88000000|e6f7cbc3-0644-4e99-b908-c1d1748a53b2|00000000-0000-0000-0000-000000000000",
@@ -415,7 +416,6 @@
         "nets": [
           "Net-(C5-Pad1)",
           "Net-(C6-Pad2)",
-          "Net-(C8-Pad2)",
           "Net-(F1-Pad1)",
           "VCC",
           "VDD"
