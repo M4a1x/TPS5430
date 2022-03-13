@@ -58,3 +58,14 @@ assembly/
 
 # But don't exclude specific fab outputs
 !jlcpcb/**
+
+## For SPICE simulations with LTSpice
+# Logfile
+*.log
+
+# Simulation Outputs
+*.raw
+*.fft
+
+# Netlist
+*.net
