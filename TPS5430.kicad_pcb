@@ -8,7 +8,7 @@
   (title_block
     (title "TPS5430")
     (date "2021-07-17")
-    (rev "1.1.0")
+    (rev "1.1.1")
     (company "Max Stabel")
     (comment 1 "https://github.com/M4a1x/TPS5430")
   )
